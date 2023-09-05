@@ -40,7 +40,9 @@ display: flex;
     display: none;
 }
 .first {
-margin-right: auto;
+  width: 100%;
+  margin-right: 0;
+  display: block;
 }
 
 #brand {
@@ -173,4 +175,70 @@ font-size: large;
     background-position: 0% 50%;
   }
   
+}
+.navbarek {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(31, 31, 31);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+  position: fixed;
+}
+@media (max-width: 500px) {
+.navbarek {
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(31, 31, 31);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: fixed;
+}
+}
+.kryti{
+  width: 100%;
+  height: 8rem;
+  background-color: aqua;
+}
+.navbarek-item {
+justify-self: center;
+}
+.branda {
+  flex-shrink: 1;
+}
+.brandatext {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+.brandatext:hover {
+  color: rgb(178, 178, 178);
+
+}
+.navbartext{
+  text-decoration: none;
+  font-size: large;
+  color: grey;
+
+}
+.navbartext:hover{
+  color: rgb(255, 255, 255);
+}
+.navbartext:focus{
+  color: aqua;
+}
+
+.navbartextactive {
+  text-decoration: none;
+  font-size: large;
+  color: aqua;
+}
+.navbartextactive:hover {
+  color: white;
+}
+.navbartextactive:focus {
+  color: gray;
 }
