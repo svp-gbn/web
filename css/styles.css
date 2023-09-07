@@ -247,3 +247,35 @@ justify-self: center;
 .margintop {
   margin-top: 5rem;
 }
+.dokumenty-grid {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 0.5fr 3fr 1fr;
+  grid-template-rows: auto;
+  width: 90%;
+  margin:  1rem auto 5rem;
+  padding: 2rem;
+  gap: 1rem;
+  border-radius: 1rem;  
+}
+.document-text {
+  font-size: large;
+  color: black;
+
+}
+.document-right {
+  justify-self: center;
+}
+.svg-icon {
+  width: 10rem;
+}
+.document-podtext {
+  font-size: large;
+  padding-left: 2rem;
+}
+.stanovy-schovany {
+ display: none;
+}
+.form-schovany {
+  display: none;
+}
