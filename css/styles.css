@@ -279,3 +279,7 @@ justify-self: center;
 .form-schovany {
   display: none;
 }
+.dokumenty-ke-stazeni {
+margin-top: 2rem;
+margin-bottom: 1.5rem;
+}
