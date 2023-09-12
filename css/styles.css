@@ -30,7 +30,7 @@ display: flex;
 .dropdown {
     display: none;
 }
-
+ 
 .gradient-background1 {
   background: linear-gradient(300deg, #51c5e8, #677b83, #d39075);
   background-size: 180% 180%;
@@ -258,6 +258,23 @@ justify-self: center;
   display: none;
 }
 .dokumenty-ke-stazeni {
-margin-top: 2rem;
-margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.countdowning {
+  width: 100%;
+  background-color: white;
+  border-top: 0.7rem solid gray ;
+  border-bottom: 0.7rem solid gray ;
+  margin-bottom: 5rem;
+  padding-bottom: 2rem;
+
+}
+#demo {
+  border: 5px solid gray;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: auto;
+ display: inline-block;
+color: aqua;
 }
