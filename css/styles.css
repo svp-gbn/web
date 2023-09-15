@@ -278,3 +278,48 @@ justify-self: center;
  display: inline-block;
 color: aqua;
 }
+.footeer{
+margin-bottom: 0;
+position: absolute;
+bottom: 0;
+}
+.gradient-background12 {
+  background: linear-gradient(300deg, #51c5e8, #677b83, #d39075);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  
+}
+.clankovy-container {
+  background-color: white;
+  width: 80%;
+  margin: auto;
+margin-top: 0;
+
+}
+.heading-clanek {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 4rem;
+}
+.clankovy-container1 {
+  padding: 2rem  ;
+}
+.clankovy-container2 {
+  padding: 2rem;
+}
+.card-text {
+color: white;
+font-size: larger;
+}
