@@ -323,3 +323,8 @@ margin-top: 0;
 color: white;
 font-size: larger;
 }
+@media (max-width: 500px) {
+  .clankovy-container {
+    width: 100%;
+  }
+}
