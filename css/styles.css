@@ -327,4 +327,7 @@ font-size: larger;
   .clankovy-container {
     width: 100%;
   }
+  .articlebot {
+  width: 100% !important;
+  }
 }
