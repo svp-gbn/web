@@ -30,8 +30,8 @@ $(".form-dropdown").click(function () {
 
 
      // Set the date we're counting down to
-     var countDownDate = new Date("Nov 7, 2023 9:40:00").getTime();
-     var countDownDate2 = new Date("Nov 8, 2023 9:40:00").getTime();
+     var countDownDate = new Date("Dec 5, 2023 0:00:00").getTime();
+     var countDownDate2 = new Date("Dec 6, 2023 0:00:00").getTime();
 
      
      // Update the count down every 1 second
