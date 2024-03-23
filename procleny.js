@@ -30,8 +30,8 @@ $(".form-dropdown").click(function () {
 
 
      // Set the date we're counting down to
-     var countDownDate = new Date("Jan 30, 2024 9:40:00").getTime();
-     var countDownDate2 = new Date("Jan 31, 2024 9:40:00").getTime();
+     var countDownDate = new Date("Apr 2, 2024 8:00:00").getTime();
+     var countDownDate2 = new Date("Apr 3, 2024 8:00:00").getTime();
 
      
      // Update the count down every 1 second
